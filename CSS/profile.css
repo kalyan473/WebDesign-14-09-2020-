@@ -1,0 +1,45 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-around;*/
+	/*flex-wrap: wrap-reverse;*/
+	flex-wrap: nowrap;
+/*	padding: 2%*/
+}
+/*.l,.m,.r{
+	width: 30%;
+	border: 2px solid blue;
+	padding: 1%;
+	margin: 0.5%;
+	text-align: center;
+}*/
+.parent>div{
+		width: 30%;
+	border: 2px solid blue;
+	padding: 2%;
+	margin: 1%;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 20px 0px 20px 0px red ;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+img{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+a{
+	text-decoration: none;
+	color: red;
+	box-shadow: 2px 2px 2px 2px;
+	padding: 1%
+
+}
+/*@media only screen (min-width:320px ) and (max-width:480px){
+	body{
+		color: green;
+	}
+}*/
+/*@media screen (min-width: 481px) and (max-width: 760px)
+@media screen (min-width: 760px) and (max-width: 1024px)*/
