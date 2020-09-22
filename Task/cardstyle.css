@@ -1,0 +1,89 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	margin-top: 5%
+}
+.parent1{
+	display: flex;
+	flex-direction: row;
+	
+	flex-wrap: nowrap;
+	
+}
+.parent>div{
+		width: 30%;
+	border: 2px solid blue;
+	padding: 2%;
+	margin: 1%;
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 20px 0px 20px 0px red ;
+	
+}
+
+img{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.button{
+	text-decoration: none;
+	color: red;
+	box-shadow: 2px 2px 2px 2px;
+	padding: 1%
+
+}
+.col1{
+	padding: 1%;
+	border-style: ridge;
+	width: 30%;
+	margin: 1%;
+}
+.col2{
+	padding: 1%;
+	border-style: ridge;
+	width: 70%;
+	margin: 1%;
+}
+#smalldiv{
+	
+	display: flex;
+	padding: 10px;
+ 
+
+}
+#smalldiv div {
+
+   flex: 1;
+}
+.skilltable{
+	text-align: right; border-radius: 10px; background: green; color: white;padding:3px; 
+  text-align: center; width: 10%; 
+}
+.semtable th {
+	  border-bottom: 1px solid #ddd;
+padding: 15px;
+}
+.semtable td{
+		  border-bottom: 1px solid #ddd;
+padding: 20px;
+}
+.semtable{
+	 border: 1px solid #ddd;
+	 border-collapse: collapse;
+	width: 100%;
+}
+.semtable1{
+		 border: 1px solid #ddd;
+	width: 100%;
+}
+
+.semtable1 td{
+		  border-bottom: 1px solid #ddd;
+padding: 5px;
+}
+.notable{
+	width: 100%;
+}
