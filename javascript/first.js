@@ -52,3 +52,43 @@ function Change(){
 	var b=document.getElementById("para");
 	b.textContent="hello";
 }
+
+//Arrow function
+/*
+function sai(a,b){
+	alert(a+b);
+}
+sai(99,1);
+*/
+var sai=(a,b)=>{
+alert(a-b);
+}
+
+sai(20,5);
+//if function without param's the below
+/*()=>{
+
+}
+*/
+//difference between var,let,const
+
+var r=10;
+{
+	var r=20;
+	document.write(r,"<br>");
+}
+document.write(r,"<br>");
+
+let r1=10;
+{
+	let r1=20;
+	document.write(r1,"<br>");
+}
+document.write(r1,"<br>");
+
+const r2=10;
+{
+	const r2=20;
+	document.write(r2,"<br>");
+}
+document.write(r2,"<br>");
