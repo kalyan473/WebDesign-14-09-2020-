@@ -1,0 +1,18 @@
+#name{
+	background-color: #ddd;
+	border: 2px solid black;
+	color: red;
+}
+.child{
+	border: 2px solid black;
+	margin: 5px;
+}
+#parent-div{
+	display: flex;
+		border: 2px solid black;
+		margin:5px;
+}
+table,td,tr{
+	border: 2px solid #000;
+	border-collapse: collapse;
+}

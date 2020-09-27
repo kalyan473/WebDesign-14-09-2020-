@@ -1,0 +1,54 @@
+{
+	"details":{
+			"image":"./image/proffessional.png",
+			"name":"webdesigning using reactJs",
+			"content":["GIT and GITHUB","HTML5","CSS3","JS","BOOTSTRAP","ES6","reactJs"],
+			"attendedcount":40
+	},
+
+
+	"trainees":[
+		{
+			"name":"sai kalyan",
+			"email":"saikalyan2233@gmail.com",
+			"courses":["python","web technologies","java","c"]
+
+		},
+		{
+			"name":"B sai kalyan",
+			"email":"saikalyan2233@gmail.com",
+			"courses":["web technologies","java","c"]
+
+		}
+	],
+	"traineescolleges":[
+		{
+			"college":"BVCEC",
+			"count":"15",
+			"district":"e.g.district",
+			"grade":"Autonomous"
+
+		},
+		{
+			"college":"BVCR",
+			"count":"18",
+			"district":"w.g.district",
+			"grade":"NAAC_B"
+
+		},
+		{
+			"college":"BVTS",
+			"count":"20",
+			"district":"e.g.district",
+			"grade":"NAAC_A"
+
+		},
+		{
+			"college":"ANU",
+			"count":"5",
+			"district":"Guntur",
+			"grade":"NAAC_A"
+
+		}
+	]
+}
