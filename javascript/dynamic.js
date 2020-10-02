@@ -43,7 +43,7 @@ var getJson=(file)=>{
 	})
 
 }
-getJson("./Data/dynamicdata.json").then(d=>{
+getJson("./Data/dynamicdataorg.json").then(d=>{
 	console.log(d);
 	t_details(d.details);
 	d_trainees(d.trainees);
@@ -101,7 +101,7 @@ h1.appendChild(document.createElement("hr"));
 child.appendChild(h1);
 main.appendChild(child);
 for(var i in r){
-	/*console.log(r[i]);*/
+
 	var h1=document.createElement("h1");
 	h1.textContent=r[i].name;
 	child.appendChild(h1);

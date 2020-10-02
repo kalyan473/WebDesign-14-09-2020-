@@ -92,3 +92,35 @@ const r2=10;
 	document.write(r2,"<br>");
 }
 document.write(r2,"<br>");
+
+//example for class
+class Square{
+	constructor(height,width){
+		this.h=height;
+		this.w=width;
+	}
+}
+var a=new Square("40cm","40cm");
+document.write(a.h);
+document.write(a.w);
+
+//spread parameter(...parametername)(only 3 dots)
+const array1=[1,2,3];
+const array2=[...array1];
+array2.push(4,5,6,7);
+document.write("<br>"+array2+"<br>");
+//here we are getting copy of the array1 to array2
+//Destructure of Elements
+var n=["sai","kalyan","manu","akshitha"];
+var [name1,name2,name3,name4]=n;
+document.write(name3+"<br>");
+//Interpolation:
+
+var n=[4,6,3,6,3,5];
+var m=`i have the number ${n}`;
+document.write(m);
+
+/*var n1=~i am 
+
+kalyan~;
+document.write(n1);*/

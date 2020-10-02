@@ -1,54 +1,66 @@
 {
 	"details":{
 			"image":"./image/proffessional.png",
-			"name":"webdesigning using reactJs",
-			"content":["GIT and GITHUB","HTML5","CSS3","JS","BOOTSTRAP","ES6","reactJs"],
-			"attendedcount":40
+			"name":"Bonagiri Sai kalyan",
+			"designation":"Software Engineer Fresher",
+			"profskills":"Proffessional Skills:",
+			"skill1":"Java-Proficient",
+			"skill2":"C-Proficient",
+			"skill3":"Python-Beginner",
+			"persskills":"Personal Skills",
+			"skills":["Hard Working","Loyal","Passionate","Team Leader"]
 	},
+	"career":{
+			"careerobj":"Career Objective:",
+			"desc":"To be associated with a dynamic and progressive organization that will allow me to utilize my abilities and qualifications in the field to add value to the organization while providing me with opportunities for growth."
 
-
-	"trainees":[
+	},
+	"table1":[
 		{
-			"name":"sai kalyan",
-			"email":"saikalyan2233@gmail.com",
-			"courses":["python","web technologies","java","c"]
+			"college":"SNo",
+			"schl":"School/Institute Name",
+			"qualn":"Qualification",
+			"grade":"CGPA/PER",
+			"durn":"Duration"
 
 		},
 		{
-			"name":"B sai kalyan",
-			"email":"saikalyan2233@gmail.com",
-			"courses":["web technologies","java","c"]
-
+			"college":"1",
+			"schl":"BVC Engineering College ",
+			"qualn":"Bachelor of Technology in ECE",
+			"grade":"89%",
+			"durn":"2015-2019"
 		}
 	],
 	"traineescolleges":[
 		{
-			"college":"BVCEC",
-			"count":"15",
-			"district":"e.g.district",
-			"grade":"Autonomous"
+			"college":"SNo",
+			"schl":"School/Institute Name",
+			"qualn":"Qualification",
+			"grade":"CGPA/PER",
+			"durn":"Duration"
 
 		},
 		{
-			"college":"BVCR",
-			"count":"18",
-			"district":"w.g.district",
-			"grade":"NAAC_B"
+			"college":"1",
+			"schl":"BVC Engineering College ",
+			"qualn":"Bachelor of Technology in ECE",
+			"grade":"89%",
+			"durn":"2015-2019"
+		},
+		{
+			"college":"2",
+			"schl":"Sri Chaitanya Jr College",
+			"qualn":"Intermediate in MPC",
+			"durn":"2013-2015"
 
 		},
 		{
-			"college":"BVTS",
-			"count":"20",
-			"district":"e.g.district",
-			"grade":"NAAC_A"
-
-		},
-		{
-			"college":"ANU",
-			"count":"5",
-			"district":"Guntur",
-			"grade":"NAAC_A"
-
+			"college":"3",
+			"schl":"Bhashyam Public School  ",
+			"qualn":"SSC",
+			"durn":"2012-2013"
 		}
 	]
+	
 }
